@@ -1,0 +1,46 @@
+/** @format */
+
+.requset-form {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(127, 255, 212, 0.073);
+  padding: 20px;
+}
+.requset-form input {
+  width: 60%;
+}
+label {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+.requset-form textarea {
+  width: 60%;
+}
+.requset-form-button {
+  width: 60%;
+  display: block;
+  margin: auto;
+  background-color: darkmagenta;
+color: aliceblue;
+}
+.requset-form-button:hover {
+ background-color: rgba(5, 60, 109, 0.621); 
+ color: aliceblue;
+}
+
+@media (max-width:640px) {
+    .requset-form input {
+        width: 100%;
+      }
+      .requset-form textarea {
+        width: 100%;
+      }
+      .requset-form-button {
+        width: 100%;
+        display: block;
+        margin: auto;
+     
+        background-color: darkmagenta;
+      }
+}

@@ -1,0 +1,74 @@
+.tablemanege {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:80%;
+   color: whitesmoke;
+   text-align: center;
+  
+
+  }
+ 
+  td, th {
+    border: 2px solid gray;
+    text-align: left;
+    padding:15px 8px;
+   
+  }
+  
+  thead{
+    background-color: darkmagenta;
+  }
+  .pagination button{
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid orange;
+    padding:1px 10px ;
+}
+.pagination .selected{
+  background-color: darkmagenta;
+    color: white;
+}
+
+
+
+
+
+/* 
+.secend-section {
+  display: flex;
+
+  width: 90%;
+  margin: auto;
+  background-color: ghostwhite;
+  position: sticky;
+  top: 0px;
+  padding: 10px 0px;
+  font-weight: 500;
+  overflow-x: auto;
+} */
+
+.secend-section > div {
+  margin: 0px 10px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tablemanege::-webkit-scrollbar {
+  display: none;
+
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.tablemanege {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@media (max-width: 640px) {
+ 
+  .tablemanege{
+    overflow-x: auto;
+    display: inline-block;
+  }
+
+ 
+}

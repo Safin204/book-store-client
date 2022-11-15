@@ -1,0 +1,19 @@
+.manageItemCard{
+
+}
+.card-img-top{
+    height: 350px;
+}
+
+@media (max-width:700px) {
+    .card-img-top{
+        height: 300px;
+    }
+    .updateQuantity-from input{
+        width: 100%
+    }
+    .updateQuantity-from{
+        width: 100%;
+    }
+    
+}

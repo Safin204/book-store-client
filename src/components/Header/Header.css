@@ -1,0 +1,21 @@
+.header-image{
+    height: 40px;
+    width: 100px;
+
+}
+a{
+    font-size: 17px;
+    color: black;
+    font-weight: 800px;
+   
+}
+
+nav{
+    width: 90%;
+    margin:0 auto;
+}
+
+.headerTitle{
+ /* color: darkmagenta; */
+
+}

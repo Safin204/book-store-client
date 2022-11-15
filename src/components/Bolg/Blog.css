@@ -1,0 +1,15 @@
+.question{
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+}
+.question>div{
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+.blog{
+    width: 90%;
+    margin: auto;
+    color: rgb(247, 249, 250);
+}

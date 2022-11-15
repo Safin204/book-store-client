@@ -1,0 +1,9 @@
+/** @format */
+
+.app {
+  text-align: center;
+background-color: white;
+z-index: 1;
+font-family: 'Barlow', sans-serif;
+
+}

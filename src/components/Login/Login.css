@@ -1,0 +1,95 @@
+
+.btn-color{
+  background-color: darkmagenta;
+  color: #fff;
+  
+}
+.anchor{
+  color: rgb(16, 5, 26);
+}
+.btn-color:hover{
+  /* color: #ebf2fa; */
+}
+
+.anchor{
+  margin-left:-10px;
+}
+.profile-image-pic{
+  height: 100px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.container{
+  /* width: 800px; */
+ 
+}
+
+.cardbody-color{
+ /* background-color: cornflowerblue; */
+ /* background-color: darkred; */
+ border: 2px solid darkmagenta;
+
+
+
+}
+.social-site-logIn button{
+  color: black;
+  border: 1px solid black;
+}
+
+
+.signup a ,a,.anchor{
+  text-decoration: none;
+  
+}
+.signup a{
+  color: #fff;
+}
+.signup a:hover {
+  color:#0e1c36 ;
+}
+
+.signup a{
+  font-weight: 600;
+ 
+}
+
+.myitem{
+color: navajowhite;
+}
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ 
+.pwd-container {
+  position: relative;
+  width: 295px;
+}
+.card-body{
+  /* width: 400px; */
+}
+
+.pwd-container img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: 8px;
+  top: 8px;
+}
+.login:hover {
+color: black;
+background-color: darkgrey;
+}
+
+@media (max-width:700px) {
+  .cardbody-color{
+    width: 90%;
+    padding: 0px 20px;
+  }
+}
